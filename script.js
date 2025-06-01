@@ -5,19 +5,27 @@ console.log(currentYear - birthday);
 
 //  #2
 let ticketPrice = 5;
-let age = Number(prompt("ჩაწერეთ თქვენი ასაკი"));
-let film3d = prompt("ჩაწერეთ რომელი მეთოდით გინდათ ფილმის ნახავა D3 | REGULAR");
+let age = Number(prompt("1. Enter your age: "));
+let film3d = prompt("2. Enter movie type (regular or 3D):");
+let timeOfDay = prompt("3. Enter time of day (matinee or evening):");
 
 if (age < 10) {
-  console.log(ticketPrice);
-} else if (age < 10 && film3d === D3) {
-  console.log(ticketPrice + 5);
+  console.log("ticket-ის ფასი იქნება 5 ლარი");
 } else if (age < 65) {
-  console.log(ticketPrice + 5);
+  console.log("ticket-ის ფასი იქნება 15 ლარი");
 } else if (age >= 65) {
-  console.log(ticketPrice + 10);
-} else if (age < 10 && film3d === 1) {
-  console.log(ticketPrice + 5);
+  console.log("ticket-ის ფასი იქნება 10 ლარი");
 } else {
   ("გთხოვთ ასაკი ჩაწეროთ ციფრებით");
+}
+
+// sds
+let x = 8;
+let y = 9;
+let mama = Number("ათი");
+
+if (x >= 8) {
+  console.log(x + y);
+} else {
+  sasa;
 }

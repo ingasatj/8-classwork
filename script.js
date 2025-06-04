@@ -49,5 +49,3 @@ if (hasDiscount === "yes") {
 }
 // console.log-ში შედეგის გამოტანა
 console.log("ბილეთის ფასი თქვენთვის არის: " + basePrice + " ლარი.");
-
-// #3
